@@ -3,7 +3,7 @@ print(STUDENT_NAME)
 
 MARK = int(input('enter the mark:'))
 
-if MARK > 50:
+if MARK >= 50:
       print('pass')
    
 else:
