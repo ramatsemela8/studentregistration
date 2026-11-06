@@ -1,1 +1,6 @@
-
+student_mark = int(input("Enter test mark: "))
+if student_mark >= 50:
+ student_result = "Pass"
+else:
+ student_result = "Needs support"
+print("Result:", student_result)
