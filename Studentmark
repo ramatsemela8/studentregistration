@@ -1,6 +1,6 @@
 student_mark = int (input ( " Enter test mark : " ))
 
-if student_mark < 0 or student_mark > 100
+if student_mark < 0 or student_mark > 100:
           print ( " Invalid mark " )
 elif student_mark >= 50:
           print ( " Pass " )
